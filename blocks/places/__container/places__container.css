@@ -1,0 +1,25 @@
+.places__container {
+    font-family: 'Inter', Arial, sans-serif;
+    max-width: 70%;
+    margin: 0px auto 0px;
+    display: grid;
+    padding-bottom: 23px;
+}
+
+@media (max-width: 1280px) {
+    .places__container {
+        width: 85%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .places__container {
+        width: 95%;
+    }
+}
+
+@media (max-width:495px) {
+    .places__container {
+        width: 100%;
+    }
+}

@@ -1,0 +1,7 @@
+@import url("./__items/menu__items.css");
+@import url("./__link/menu__link.css");
+
+.menu{
+    font-family: 'Inter', Arial, sans-serif;
+}
+

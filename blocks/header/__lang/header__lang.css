@@ -1,0 +1,52 @@
+@import url("./_selected/header__lang_selected.css");
+
+.header__lang {
+    margin-top: 18px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 23px;
+    text-align: right;
+    text-decoration-line: none;
+    color: #FFFFFF;
+}
+
+.header__lang:hover {
+    opacity: 0.7;
+}
+
+@media screen 
+    and (min-width : 1024px){
+    .header__lang {
+        font-size: 24px;
+        line-height: 0.96;
+    }
+}
+
+@media screen 
+    and (max-width: 1024px)
+    and (min-width: 768px ){
+    .header__lang {
+        font-size: 24px;
+        line-height: 0.96;
+    }
+}
+    
+@media screen 
+    and (max-width: 768px)
+    and (min-width: 425px) {
+        .header__lang {
+            font-size: 24px;
+            line-height: 0.96;
+        }
+    }
+
+@media screen 
+    and (max-width : 425px) {
+    .header__lang {
+        font-size: 18px;
+        line-height: 0.96;
+    }
+}
+

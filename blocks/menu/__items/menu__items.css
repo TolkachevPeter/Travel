@@ -1,0 +1,15 @@
+.menu__items {
+    display: flex;
+    list-style: none;
+    margin-bottom: 48px;
+    padding-left: 0px;
+}
+
+@media screen 
+    and (max-width : 600px) {
+        .menu__items{
+        flex-direction: column;
+        margin-bottom: 10px;
+        padding-left: 0px;
+    }
+}

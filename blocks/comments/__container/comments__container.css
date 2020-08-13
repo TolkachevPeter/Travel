@@ -1,0 +1,25 @@
+.comments__container{
+    display: flex;
+    margin: 30px auto 0;
+    justify-content: space-between;
+    max-width: 95%;
+}
+
+@media screen 
+and (max-width: 1024px)
+and (min-width: 768px ) {
+    .comments__container{
+        margin: 0px auto 0;
+    }
+}
+
+
+    
+@media screen 
+    and (max-width: 768px){
+        .comments__container{
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+}

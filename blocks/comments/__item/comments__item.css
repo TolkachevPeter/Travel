@@ -1,0 +1,14 @@
+.comments__item {
+    max-width: 382px;
+    padding-top: 54px;
+    flex:1;
+    margin: 0 auto;
+}
+@media screen 
+    and (max-width: 768px){
+        .comments__item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+}

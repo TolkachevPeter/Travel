@@ -1,0 +1,15 @@
+.comments__cite {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+@media screen 
+    and (max-width: 768px) {
+        .comments__cite {
+            order: 2;
+        }
+}

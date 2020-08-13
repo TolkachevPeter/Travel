@@ -1,0 +1,21 @@
+.places__image {
+    width: 100%;
+    margin: auto;
+    
+}
+
+@media (max-width: 1024px) {
+    .places__image {
+        width: 95%;    
+    }
+}
+
+
+@media screen 
+    and (max-width : 495px) {
+        .places__image {
+            width: 100%;
+            
+            
+        }
+}

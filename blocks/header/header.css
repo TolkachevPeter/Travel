@@ -1,0 +1,47 @@
+@import url("./__logo/header__logo.css");
+@import url("./__lang/header__lang.css");
+@import url("./__lang/_selected/header__lang_selected.css");
+
+.header {
+    font-family: 'Inter', Arial, sans-serif;
+    max-width: 1184px;
+    margin: 30px auto 0px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 50fr 1fr 1fr;
+}
+
+
+@media screen 
+    and (min-width : 1024px) {
+    .header {
+        max-width: 92%;
+        margin: 30px auto 0px;
+    }
+}
+
+@media screen 
+    and (max-width: 1024px)
+    and (min-width: 768px ) {
+    .header {
+        max-width: 92%;
+        margin: 30px auto 0px;
+    }
+}
+
+@media screen 
+    and (max-width: 768px)
+    and (min-width: 425px) {
+    .header {
+        max-width: 92%;
+        margin: 30px auto 0px;
+    }
+}
+
+@media screen 
+    and (max-width : 424px) {
+        .header {
+            max-width: 92%;
+            margin: 16px auto 0px;
+        }
+}

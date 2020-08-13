@@ -1,0 +1,19 @@
+.lead__caption {
+    margin-top: 10px;
+    max-width: 636px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+@media screen 
+    and (max-width : 425px) {
+        .lead__caption {
+            margin-top: 8px;
+        }
+}

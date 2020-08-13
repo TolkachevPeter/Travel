@@ -1,0 +1,29 @@
+.places__paragraphs {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media screen 
+    and (max-width: 1024px)
+    and (min-width: 768px ) {
+        .places__paragraphs {
+            width: 90%;
+        }
+}
+    
+@media screen 
+    and (max-width: 768px)
+    and (min-width: 495px) {
+        .places__paragraphs {
+            width: 100%;
+        }
+}
+
+@media screen 
+    and (max-width : 495px) {
+        .places__paragraphs {
+            width: 95%;
+            margin: auto;
+        }
+}

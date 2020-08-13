@@ -1,0 +1,37 @@
+.lead__image {
+    margin-top: 72px;
+    max-width: 984px;
+}
+
+@media screen 
+    and (min-width : 1024px) {
+    .lead {
+        max-width: 985px;
+    }
+}
+
+@media screen 
+    and (max-width: 1024px)
+    and (min-width: 768px ) {
+        .lead__image {
+            margin-top: 72px;
+            width: 100%;
+        }
+}
+    
+@media screen 
+    and (max-width: 768px)
+    and (min-width: 425px) {
+        .lead__image {
+            margin-top: 32px;
+            width: 100%;
+        }
+}
+
+@media screen 
+    and (max-width : 425px) {
+        .lead__image {
+            margin-top: 32px;
+            width: 100%;
+        }
+}
